@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangles Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav class="navigation container">
+        <div class="nav-brand">Fun with Triangles</div>
+        <ul class = "list-no-bullet nav-pills">
+            <li class = "list-item-inline">
+                <a class= "link " href = "/">Home</a>
+            </li>
+            <li class = "list-item-inline">
+                <a class= "link " href = "hypotenuse.html">Find Hypotenuse</a>
+            </li>
+            
+            <li class = "list-item-inline">
+                <a class= "link" href = "/isTriangle.html">Is Triangle?</a>
+            </li>
+            
+            <li  class = "list-item-inline">
+                <a class= "link link-active" href = "/quiz.html">Triangles Quiz</a>
+            </li>
+            <li  class = "list-item-inline">
+                <a class= "link" href = "/area.html">Find Area</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="container">
+        <h1>Triangles Quiz</h1>
+    <form id="triangles-quiz">
+        <div class="quiz-container">
+            <label for="question1">Question 1: </label>
+            <p id="question1">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <input type="radio" name="q1" value="45°">45°</input>
+            <input type="radio" name="q1" value="90°">90°</input>
+            <input type="radio" name="q1" value="60°">60°</input>
+        </div>
+        <div class="quiz-container">
+            <label for="question2">Question 2: </label>
+            <p id="question2">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <input type="radio" name="q2" value="obtuse">obtuse</input>
+            <input type="radio" name="q2" value="acute">acute</input>
+            <input type="radio" name="q2" value="right-angled">right-angled</input>
+        </div>
+    </form>  
+    <button id="submit">Submit Quiz</button>  
+    <h2 id="output"></h2>
+</section>
+  <script src = "quiz.js"></script>  
+</body>
+</html>

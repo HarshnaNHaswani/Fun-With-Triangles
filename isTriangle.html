@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Triangle ?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navigation container">
+    <div class="nav-brand">Fun with Triangles</div>
+    <ul class = "list-no-bullet nav-pills">
+        <li class = "list-item-inline">
+            <a class= "link " href = "/">Home</a>
+        </li>
+        <li class = "list-item-inline">
+            <a class= "link " href = "hypotenuse.html">Find Hypotenuse</a>
+        </li>
+        
+        <li class = "list-item-inline">
+            <a class= "link link-active" href = "/isTriangle.html">Is Triangle?</a>
+        </li>
+        
+        <li  class = "list-item-inline">
+            <a class= "link" href = "/quiz.html">Triangles Quiz</a>
+        </li>
+        <li  class = "list-item-inline">
+          <a class= "link" href = "/area.html">Find Area</a>
+      </li>
+    </ul>
+</nav>
+<section class="container">
+  <h1>Check if the three angles form a triangle</h1>
+    <label for="angle1">Angle 1: </label>   
+    <input type="number" id="angle1"><br>
+
+    <label for="angle2">Angle 2: </label>
+    <input type="number" id="angle2"><br>
+
+    <label for="angle3">Angle 3:</label>
+    <input type="number" id="angle3"><br>
+
+    <button id="is-triangle">Is Triangle?</button>
+    <h2 id="out-put"></h2>
+  </section>
+  <script src = "isTriangle.js"></script>  
+</body>
+</html>
